@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edufy - Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Login Page -->
+    <div id="login-page" class="fade-in">
+        <div class="login-box">
+            <h2>Login to Edufy</h2>
+            <form id="login-form">
+                <input type="text" id="username" placeholder="Enter Username" required>
+                <input type="password" id="password" placeholder="Enter Password" required>
+                <button type="submit">Login</button>
+                <p class="error-message" id="error-msg"></p>
+            </form>
+        </div>
+    </div>
+    
+    <!-- Dashboard (Hidden by Default) -->
+    <div id="dashboard" class="fade-in" style="display: none;">
+        <header>
+            <h1>Edufy</h1>
+            <nav>
+                <ul>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="notifications.html">Notifications</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <h2>Welcome to Edufy Dashboard</h2>
+            <p>Your one-stop platform for college details, notifications, and announcements.</p>
+        </section>
+    </div>
+</body>
+</html>
